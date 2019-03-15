@@ -1,0 +1,62 @@
+head {
+    margin:auto;
+    padding:auto;
+}
+
+body {
+font-family: 'Caveat' , cursive;
+background: url('..assets/css/images/mumford-and-sons-wallpaper.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+h3 {
+    text-align: center;
+    font-weight: 200px;
+    margin-left: 25px;
+}
+
+/*------------------------Containers----------------------------------*/
+
+.navbar-header {
+    color: #CBC5C5;
+    margin-bottom: 10px;
+}
+
+.navbar-nav {
+}
+
+/*------------------------Containers----------------------------------*/
+
+.callout {
+    
+    width:100%;
+    background: url('css/images/mumford-and-sons-wallpaper.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+.container-paragraph {
+    background: #c3d3a0;
+    font-family: 'Nanum Myeongjo', serif;
+    border: solid black 2px;
+    padding: 15px;
+    width: 100%;
+}
+
+/*------------------------Footer----------------------------------*/
+
+footer {
+    margin:auto;
+    padding:auto;
+    background-color: #90918f;
+    width:100%;
+    height:60px;
+}
+
