@@ -19,27 +19,27 @@
 
     <!---navbar------------------------------------------------------->
 
-    <nav class="navbar navbar-default navbar-fixed-top menu">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <a class="navbar-brand" href="#MyPage">M&S</a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                    </div>
-
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="nav navbar-nav navbar-right">
-                            <a class="nav-item nav-link" href="#story">Their Story </a></li>
-                            <a class="nav-item nav-link" href="#tour"> Tour </a></li>
-                            <a class="nav-item nav-link" href="#audio"> Audio </a></li>
-                            <a class="nav-item nav-link" href="#video"> Video </a></li>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">M&S</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#theirstory">Their Story</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#tour">Tour</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#audio">Audio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#video">Video</a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
 
@@ -61,7 +61,7 @@
             <div class="container story">
                 <div class="row">
                     <div class="col-xs-12">
-                        <h3 class="text-uppercase align:center">Their Story</h3>
+                        <h3 class="text-uppercase text-center">Their Story</h3>
                         <div <p class="container container-paragraph">
                         </div>
 
@@ -80,31 +80,31 @@
         </section>
 
         <section id="biophotos">
-            <div class="container-wrapper">
+            <div class="wrapper">
                 <div class="row">
-                    <div class="col-xs-3 col-xs-3 col-xs-3 col-xs-3">
+                    <div class="col">
                         
                         <figure class="image-1">
                             <h3 class="bandname">Marcus</h3>
                             <img src="/assets/css/images/marcus.jpg" alt="Marcus photo">
                             <p>Lead vocals, guitar, drums, mandolin, ukulele, melodica, percussion</p>
                         </figure>
-                        
+
                         <figure class="image-2">
                             <h3 class="bandname">Ben</h3>
-                            <img src="/assets/css/images/benlovett.jpg" alt="Ben photo">
+                            <img src="/assets/css/images/ben.jpg" alt="Ben photo">
                             <p> Vocals, guitar, drums, accordion, percussion, keyboard, piano</p>
                         </figure>
-                        
+
                         <figure class="image-3">
                             <h3 class="bandname">Ted</h3>
-                            <img src="/assets/css/images/teddwane.jpg" alt="Ted photo">
+                            <img src="/assets/css/images/ted.jpg" alt="Ted photo">
                             <p>Vocals, double bass, bass guitar, guitar, drums</p>
                         </figure>
-                        
+
                         <figure class="image-4">
                             <h3 class="bandname">Winston</h3>
-                            <img src="/assets/css/images/winstonmarshall.jpg" alt="Winston photo">
+                            <img src="/assets/css/images/winston.jpg" alt="Winston photo">
                             <p>Banjo, guitar, bass guitar, dobro, vocals</p>
                         </figure>
         </section>
@@ -141,33 +141,39 @@
 
     <!---footer----------------------------------------------->
 
-    <footer class="container-fluid">
-        <div id="footer-details" class="row">
-            <div class="col-sm-4">
-                <ul class="list-inline social-links">
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.facebook.com/mumfordandsons/">
+    <footer>
+
+        <div class="container-fluid">
+            <div class="row foot">
+                <div class="col-xs-12 col-sm-12">
+                    <ul class="list-inline social-links">
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://www.facebook.com/mumfordandsons/">
                             <i class="fa fa-facebook" aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
                         </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.instagram.com/mumfordandsons/?hl=en">
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://www.instagram.com/mumfordandsons/?hl=en">
                             <i class="fa fa-instagram" aria-hidden="true"></i>
                             <span class="sr-only">Instagram</span>
                         </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.youtube.com/channel/UCUyVHhyGAR3djWzqlljIN1A">
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://www.youtube.com/channel/UCUyVHhyGAR3djWzqlljIN1A">
                             <i class="fa fa-youtube" aria-hidden="true"></i>
                             <span class="sr-only">YouTube</span>
                         </a>
-                    </li>
-                </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <p class="copyright">Copyright© Chris Flynn 2019</p>
+        
     </footer>
+    
+    <p class="copyright text-center">Copyright© Chris Flynn 2019</p>
+    
 </body>
 
 </html>
