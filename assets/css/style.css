@@ -1,8 +1,3 @@
-head {
-    margin:auto;
-    padding:auto;
-}
-
 body {
     
 font-family: 'Caveat' , cursive;
@@ -12,21 +7,42 @@ background: url('images/mumford-and-sons-wallpaper.jpg') no-repeat center center
     -o-background-size: cover;
     background-size: cover;
     color: #ffffff;
-    margin: 0;
-    display: block;
+    margin: auto;
+    max-height: auto;
+    max-width: auto;
+    text-align: center;
+   
 
 }
 
-h3 {
+h1 {
+    font-size:75px;
+}
+
+h2 {
     text-align: center;
+    font-size:40px;
+    margin: 5%;
+    padding:2%;
+    display: inline-block;
+    float:center;
+    width:fit-content;
+    justify-content:center;
     font-weight: 200px;
-    margin-left: 25px;
+    background:rgba(255,255,255,0.4);
+    border-radius: 25%;
+}
+
+h3 {
+    font-size: 30px;
+    margin:auto 0;
 }
 
 /*------------------------Navbar----------------------------------*/
 
 .navbar {
     background: #b3b4b5;
+    
 }
 
 
@@ -49,7 +65,7 @@ h3 {
 }
 
 .nav-item a {
-    color: black;
+    color: #000000;
 }
 
 /*------------------------Containers----------------------------------*/
@@ -60,14 +76,19 @@ h3 {
     
 }
 
-.container-paragraph {
-    background:rgba(255,255,255,0.2);
+.paragraph {
+    background:rgba(255,255,255,0.4);
     font-family: 'Nanum Myeongjo', serif;
     border: solid black 2px;
-    padding: 15px;
+    border-radius: .25%;
+    padding: 20px;
     width: 100%;
     color: #000000;
     float: center;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+
 }
 
 .callout-container {
@@ -78,53 +99,126 @@ h3 {
     margin-left: 25%;
 }
 
-
-
 /*------------------------Story----------------------------------*/
 
 .story {
-    margin: 10px;
-    padding: 25px;
+    margin: auto;
+    padding: auto;
+    justify-content: center;
 }
 
-#biophotos .wrapper {
-    display: flex;
-    flex-wrap: wrap;
+#biophotos 
+figure {
+    margin:10px;
+    padding:10px;
+    border-radius:20px;
+    width:100%;
+    display: relative;
+    align-items: center;
     margin-bottom: 15%
 }
     
-#biophotos .wrapper
+#biophotos 
 figure img {
     border-radius: 50%;
     margin: 20px 0 0;
     padding: 5px;
     background-color: #000000;
-    display: inline-block;
+    display: relative;
 }
 
-img {
-    vertical-align: middle;
-    border: 0;
-    box-sizing: border-box;
+#biophotos 
+figure p {
+    margin:10px;
+   padding:10px;
+    background:rgba(255,255,255,0.4);
+    border: solid black 2px;
+    font-size: 20px;
+    text-align: center;
+    color:#000000; 
     
 }
 
 
-/*------------------------Video----------------------------------*/
-
-.container-video {
+.bandname {
     text-align: center;
 }
+
+
+/*------------------------Tour----------------------------------*/
+
+#tour .container-fluid ul {
+    list-style: none;
+    padding:10px;
+    background:rgba(255,255,255,0.4);
+    border: solid black 2px;
+    color:#000000;
+}
+
+ul {
+    font-size: 25px;
+
+}
+
+
+/*------------------------Media----------------------------------*/
+
+#audio {
+    display: inline;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: stretch;
+}
+
+#audio {
+    margin:10px;
+    padding:10px;
+    width:100%;
+    align-items: stretch;
+    display: inline;
+}
+
+#video {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.video {
+    justify-content:center;
+    margin:25px;
+    padding:10px;
+}
+
+/*------------------------Form----------------------------------*/
+
+form {
+    background:rgba(255,255,255,0.4);
+    font-family: 'Caveat', cursive;
+    border: solid black 2px;
+    border-radius: 25px;
+    margin:auto;
+    padding: 20px;
+    width: 100%;
+    color: #000000;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    float: right;
+    
+}
+
 
 /*------------------------Footer----------------------------------*/
 
 footer {
     
-    display: flex;
+    display: block;
     background: #b3b4b5;
-    width:100%;
-    height:75px;
+    height: auto;
     align-items: center;
+    width:100%;
     
 }
 
@@ -136,9 +230,7 @@ footer a {
   transition: .5s ease-in-out;
   text-align: center;
 }
-footer a:first-child {
-  border-left: 1px solid #70726F;
-}
+
 footer a:hover {
   color: white;
   transition: ease-in-out .5s;
