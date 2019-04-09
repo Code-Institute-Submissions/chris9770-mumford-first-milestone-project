@@ -1,27 +1,28 @@
 body {
     
 font-family: 'Caveat' , cursive;
-background: url('images/mumford-and-sons-wallpaper.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+background: url('../images/wallpaper.jpg') no-repeat center center fixed;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
     color: #ffffff;
     margin: auto;
-    max-height: auto;
+    height: 100vh;
     max-width: auto;
     text-align: center;
-   
+    position: relative;
 
+   
 }
 
 h1 {
-    font-size:75px;
+    font-size:6rem;
 }
 
 h2 {
     text-align: center;
-    font-size:40px;
+    font-size:5rem;
     margin: 5%;
     padding:2%;
     display: inline-block;
@@ -34,7 +35,7 @@ h2 {
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 4rem;
     margin:auto 0;
 }
 
@@ -42,30 +43,32 @@ h3 {
 
 .navbar {
     background: #b3b4b5;
+    width:100%;
     
 }
 
 
 .navbar-brand {
-    font-size: 40px;
+    font-size: 4rem;
     color:#000000;
 }
 
 
 .navbar-nav {
-   font-size: 25px;
+   font-size: 3rem;
    float: right;
 }
 
 
 .navbar-header {
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 3rem;
     background: #b3b4b5;
 }
 
 .nav-item a {
     color: #000000;
+    padding:25px;
 }
 
 /*------------------------Containers----------------------------------*/
@@ -86,7 +89,7 @@ h3 {
     color: #000000;
     float: center;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 2rem;
     text-align: center;
 
 }
@@ -133,14 +136,14 @@ figure p {
    padding:10px;
     background:rgba(255,255,255,0.4);
     border: solid black 2px;
-    font-size: 20px;
+    font-size: 2rem;
     text-align: center;
     color:#000000; 
     
 }
 
 
-.bandname {
+h3 .bandname {
     text-align: center;
 }
 
@@ -156,7 +159,7 @@ figure p {
 }
 
 ul {
-    font-size: 25px;
+    font-size: 2rem;
 
 }
 
@@ -203,7 +206,7 @@ form {
     width: 100%;
     color: #000000;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 2rem;
     text-align: center;
     float: right;
     
@@ -224,7 +227,7 @@ footer {
 
 footer a {
   color: #000000;
-  font-size: 30px;
+  font-size: 3rem;
   padding: 10px;
   border-radius: 25%
   transition: .5s ease-in-out;
