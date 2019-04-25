@@ -244,9 +244,10 @@ footer a:hover {
 
 /*------------------------Media Queries----------------------------------*/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1024px) {
   body {
     background: #000000;
   }
 }
+
 
