@@ -18,7 +18,7 @@ background: url('../images/wallpaper.jpg') no-repeat center center fixed;
 
 h1 {
     font-size:5rem;
-    color:#000000;
+    color:#e3e6ea;
 }
 
 h2 {
@@ -228,7 +228,7 @@ footer a {
   color: #000000;
   font-size: 3rem;
   padding: 10px;
-  border-radius: 25%
+  border-radius: 25%;
   transition: .5s ease-in-out;
   text-align: center;
 }
@@ -241,3 +241,12 @@ footer a:hover {
 .social-links {
     text-align: center;
 }
+
+/*------------------------Media Queries----------------------------------*/
+
+@media screen and (max-width: 600px) {
+  body {
+    background: #000000;
+  }
+}
+
