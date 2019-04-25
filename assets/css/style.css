@@ -85,7 +85,7 @@ h3 {
     background:rgba(255,255,255,0.4);
     font-family: 'Nanum Myeongjo', serif;
     border: solid black 2px;
-    border-radius: .25%;
+    border-radius: 10%;
     padding: 20px;
     width: 100%;
     color: #000000;
@@ -138,6 +138,7 @@ figure p {
    padding:10px;
     background:rgba(255,255,255,0.4);
     border: solid black 2px;
+    border-radius: 40%;
     font-size: 2rem;
     text-align: center;
     color:#000000; 
@@ -157,6 +158,7 @@ h3 .bandname {
     padding:10px;
     background:rgba(255,255,255,0.4);
     border: solid black 2px;
+    border-radius: 10%;
     color:#000000;
 }
 
@@ -199,7 +201,7 @@ form {
     background:rgba(255,255,255,0.4);
     font-family: 'Caveat', cursive;
     border: solid black 2px;
-    border-radius: 25px;
+    border-radius: 10%;
     margin:auto;
     padding: 20px;
     width: 100%;
@@ -250,4 +252,30 @@ footer a:hover {
   }
 }
 
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+    #audio {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+    padding:15px;
+        
+    }
+}
 
+@media screen and (max-width: 450px) {
+    h2 {
+        font-size: 3rem;
+    }
+    h1 {
+        font-size: 4rem;
+    }
+    
+    .paragraph {
+        font-size: 1rem;
+    }
+    
+    ul {
+        font-size: 1rem;
+    }
+}
