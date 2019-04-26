@@ -2,7 +2,7 @@
 
 ##Purpose
 
-The purpose of this website is to provide information on the band Mumford and Sons. This includes information about:
+The purpose of this website is to provide basic information on the band Mumford and Sons. This includes information about:
 
 1. Their history
 2. Biographical data
@@ -17,8 +17,10 @@ The purpose of this website is to provide information on the band Mumford and So
 
 - Accessibility throughout the page can be found in the navigation bar at the top.
 - Audio files can be downloaded by clicking on the album cover. 
+- Social media links can be accessed in the footer and are shown on all devices. 
 
-###Supported Browsers
+##Supported Browsers
+
 1. Chrome
 2. Firefox 
 3. Internet Explorer 11 (some accessibility may be limited but overall functionality will not be restricted)
@@ -38,6 +40,15 @@ To view the code on Github, please access the site [here](https://github.com/chr
 
 ##Deployment
 
+The site was created on a Cloud 9 workspace. It was built using Bootstrap 4.0, HTML5 and CSS. The site was pushed through Github. I initially made commits and had to create a separate branch to make changes. Using the hotfix, I had to pull from master, and then "git merge" to merge the hotfix branch with the changes to my master branch and push it again successfully. 
+
+##User Stories
+
+- The website was simple to navigate. The previous version was not responding correctly on mobile devices and tablets. The background photo was not showing correctly on an iPhone 7plus (portrait and landscape) and on tablets. After creating media queries, the refreshed site is much cleaner. The background is a standard color on mobile devices and the font is smaller.
+
+- The album covers are still showing differently on an iPad. After numerous attempts to try and resolve the issue with padding using media queries, I did not want to disrupt the code as it was viewing just the way I wanted it across all other devices. 
+
+- The site is very easy to navigate and is best viewed on a desktop. The navigation dropdown tabs will navigate to the correct area of the page. It does not center on "Tour" 100% though. The page has a clear purpose as a fan page for providing basic information on the band with useful external links.
 
 
 
